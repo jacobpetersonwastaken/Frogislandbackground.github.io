@@ -3,6 +3,23 @@ body {
     transition: background-color 5s ease;
 
 }
-/* svg {
-    transition: background-color 5s ease;
-} */
+input[type=range] {
+    direction: rtl;
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+    -webkit-appearance: none;
+    background-color: #ddd;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #666;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+  }
